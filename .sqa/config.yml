@@ -1,0 +1,64 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: feature/pynblint
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test:
+      branch: main
+      repo: https://gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
+        commands:
+        - /usr/bin/env sh .sqa/script.flabby-red-moose.sh
+        container: qc.acc_frumpy-cerise-stoat
+  QC.Doc:
+    repos:
+      gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.snazzy-jade-rat.sh
+        container: qc.doc_crappy-green-ray
+      gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
+        commands:
+        - /usr/bin/env sh .sqa/script.randy-auburn-barracuda.sh
+        container: qc.doc_sleazy-tan-bombay
+      gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test markdownlint:
+        commands:
+        - /usr/bin/env sh .sqa/script.hasty-peach-oriole.sh
+        container: qc.doc_skimpy-corn-rottweiler
+  QC.Lic:
+    repos:
+      gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.greasy-indigo-zonkey.sh
+        container: qc.lic_scummy-cobalt-wallaby
+  QC.Sec:
+    repos:
+      gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test bandit:
+        commands:
+        - /usr/bin/env sh .sqa/script.shabby-linen-fossa.sh
+        container: qc.sec_fuzzy-green-dog
+  QC.Sty:
+    repos:
+      gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pynblint.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.gummy-rose-kudu.sh
+        container: qc.sty_crabby-khaki-oyster
+  QC.Uni:
+    repos:
+      gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pytest:
+        commands:
+        - /usr/bin/env sh .sqa/script.pokey-persimmon-newt.sh
+        container: qc.uni_muggy-smalt-lemur
+  QC.Ver:
+    repos:
+      gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.leaky-ruby-bison.sh
+        container: qc.ver_goopy-orange-cockroach
+timeout: 5400
