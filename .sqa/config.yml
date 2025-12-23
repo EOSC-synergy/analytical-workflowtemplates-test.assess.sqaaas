@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-smalt-caracal.sh
-        container: qc.acc_homey-indigo-anteater
+        - /usr/bin/env sh .sqa/script.pretty-cerise-badger.sh
+        container: qc.acc_crabby-gamboge-numbat
   QC.Doc:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-olive-bat.sh
-        container: qc.doc_pokey-amaranth-capybara
+        - /usr/bin/env sh .sqa/script.randy-seashell-camel.sh
+        container: qc.doc_breezy-auburn-woodpecker
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.surly-sangria-monkey.sh
-        container: qc.doc_blurry-orchid-woodpecker
+        - /usr/bin/env sh .sqa/script.gimpy-xanthic-mayfly.sh
+        container: qc.doc_lousy-firebrick-dog
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-olive-dachshund.sh
-        container: qc.doc_skimpy-lime-meerkat
+        - /usr/bin/env sh .sqa/script.cloudy-bronze-bison.sh
+        container: qc.doc_thirsty-russet-hyena
   QC.Lic:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.hasty-aqua-dugong.sh
-        container: qc.lic_pretty-firebrick-ladybird
+        - /usr/bin/env sh .sqa/script.scummy-aqua-salamander.sh
+        container: qc.lic_jumpy-eggplant-deer
   QC.Sec:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.chummy-harlequin-hedgehog.sh
-        container: qc.sec_baggy-beige-woodpecker
+        - /usr/bin/env sh .sqa/script.sleazy-magnolia-crocodile.sh
+        container: qc.sec_cloudy-platinum-warthog
   QC.Sty:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flimsy-xanthic-barnacle.sh
-        container: qc.sty_snoopy-rose-dolphin
+        - /usr/bin/env sh .sqa/script.greasy-azure-lemming.sh
+        container: qc.sty_clammy-linen-squirrel
   QC.Uni:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-alizarin-llama.sh
-        container: qc.uni_sleepy-cyan-insect
+        - /usr/bin/env sh .sqa/script.nerdy-goldenrod-dalmatian.sh
+        container: qc.uni_craggy-jade-moorhen
   QC.Ver:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-sepia-cattle.sh
-        container: qc.ver_muzzy-salmon-molly
+        - /usr/bin/env sh .sqa/script.wiggy-viridian-monster.sh
+        container: qc.ver_chummy-buff-monster
 timeout: 5400
