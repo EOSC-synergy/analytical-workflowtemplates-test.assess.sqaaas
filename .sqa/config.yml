@@ -1,15 +1,11 @@
 config:
-  credentials:
-  - id: https://gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test
-    password_var: gAAAAABpaKEdi3ZnPQAM86lgoR4N-jSV1HfQgqLFitetyaVvSPlR1iHZJKx0lkBFkPsfdJIBwK6ucCNT4vGNuVSoZawK51RY1cgUFrUlNe5icZbKKOirliVAMeZFoC_9ZMIaPN-hxl9K
-    username_var: gAAAAABpaKEdfaVyRU95uXTwPpeHChM88VaZK8zu9UbHjRoQi75Vhf6uWwpwfOJpzCAW6-r4uzxB7tiTm3_6anlfwpzKak-3OQ==
+  credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: feature/pynblint
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
     gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test:
       branch: main
-      credential_tmp: true
       repo: https://gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test
 environment:
   JPL_DOCKERFORCEBUILD: enabled
@@ -19,50 +15,50 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-maroon-ocelot.sh
-        container: qc.acc_shabby-sangria-whippet
+        - /usr/bin/env sh .sqa/script.dorky-rose-crab.sh
+        container: qc.acc_shabby-apricot-newt
   QC.Doc:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.skinny-thistle-iguana.sh
-        container: qc.doc_gloppy-white-affenpinscher
+        - /usr/bin/env sh .sqa/script.gamy-white-javanese.sh
+        container: qc.doc_skinny-charcoal-uguisu
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.scummy-lavender-buffalo.sh
-        container: qc.doc_squeaky-silver-bullfrog
+        - /usr/bin/env sh .sqa/script.hasty-tomato-dragon.sh
+        container: qc.doc_slaphappy-blue-mole
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-lavender-kudu.sh
-        container: qc.doc_tacky-alizarin-orangutan
+        - /usr/bin/env sh .sqa/script.scaly-jade-heron.sh
+        container: qc.doc_lanky-green-liger
   QC.Lic:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-jade-mongrel.sh
-        container: qc.lic_crabby-black-lemming
+        - /usr/bin/env sh .sqa/script.freaky-aquamarine-fousek.sh
+        container: qc.lic_sunny-apricot-quetzal
   QC.Sec:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-olive-giraffe.sh
-        container: qc.sec_fuzzy-pear-newfoundland
+        - /usr/bin/env sh .sqa/script.wimpy-vermilion-bat.sh
+        container: qc.sec_sleazy-champagne-avocet
   QC.Sty:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.lanky-firebrick-nightingale.sh
-        container: qc.sty_gloppy-cerulean-wolverine
+        - /usr/bin/env sh .sqa/script.slimy-azure-cattle.sh
+        container: qc.sty_paltry-ivory-harrier
   QC.Uni:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.dorky-yellow-bullfrog.sh
-        container: qc.uni_fuzzy-peach-bombay
+        - /usr/bin/env sh .sqa/script.surly-pear-beetle.sh
+        container: qc.uni_blurry-ecru-hyrax
   QC.Ver:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.crappy-pink-elephant.sh
-        container: qc.ver_muzzy-firebrick-tarsier
+        - /usr/bin/env sh .sqa/script.shabby-copper-grasshopper.sh
+        container: qc.ver_surly-amber-akita
 timeout: 5400
