@@ -1,8 +1,8 @@
 config:
   credentials:
   - id: https://gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test
-    password_var: gAAAAABpaJ1oYwZ79GNAB1HHMVPkbtYRgPeDuyQ2PvdhcV343X2YoVJwXeMNgDPwWw2js9F9Oifq_whTFwt8bkmFK_MMkDxVQYzEzEoFWUmQY_yFejw3QwEMYQYNpBuBq-RxkJr3gvHU
-    username_var: gAAAAABpaJ1odJq7f68RU1fqIWdc72GrZ1WwBSUYRLSoGQZ4pLUtE4hiKm_h8CNbdDvAdK5yv8U5rkdyvP4d5f03NDffOwTPtw==
+    password_var: gAAAAABpaJ8izNlXlIlu_JxQ_HgWuMi6cXfbt71p8pj8EtrXoVsdgPrFHM5-02DKtj7BSgoKOvCCAQQHxPkcSioZS2b-ZkVYXNhxfiN2Ma5AZci-MmQGV9yKNNgi1YdztEfyroA5RKru
+    username_var: gAAAAABpaJ8i5xsiRot-5d55dVsK_EMJ0V8_LK6bC4BwnTkgzlgrSqeTacxw-AZVi9lGXBdP2FuHYkX1eqvAMAwHrFXeg6sJow==
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
       branch: feature/pynblint
@@ -19,50 +19,50 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-russet-millipede.sh
-        container: qc.acc_hilly-xanthic-ibis
+        - /usr/bin/env sh .sqa/script.pasty-tomato-fossa.sh
+        container: qc.acc_wimpy-firebrick-monkey
   QC.Doc:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.ready-jade-caracal.sh
-        container: qc.doc_leaky-platinum-pinscher
+        - /usr/bin/env sh .sqa/script.scaly-ultramarine-flounder.sh
+        container: qc.doc_snappy-carmine-mau
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.ugly-linen-lionfish.sh
-        container: qc.doc_homely-smalt-stoat
+        - /usr/bin/env sh .sqa/script.cloudy-buff-duck.sh
+        container: qc.doc_nerdy-brown-deer
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.shabby-mustard-robin.sh
-        container: qc.doc_homey-saffron-bongo
+        - /usr/bin/env sh .sqa/script.clammy-orchid-frog.sh
+        container: qc.doc_surly-jade-lizard
   QC.Lic:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.frumpy-tomato-dollar.sh
-        container: qc.lic_cozy-goldenrod-uakari
+        - /usr/bin/env sh .sqa/script.woolly-plum-kakapo.sh
+        container: qc.lic_smelly-amber-squid
   QC.Sec:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-linen-camel.sh
-        container: qc.sec_grumpy-celadon-gopher
+        - /usr/bin/env sh .sqa/script.messy-cobalt-bloodhound.sh
+        container: qc.sec_shaggy-cinnamon-cassowary
   QC.Sty:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.gamy-buff-quail.sh
-        container: qc.sty_skinny-olive-toucan
+        - /usr/bin/env sh .sqa/script.flabby-gold-kakapo.sh
+        container: qc.sty_beady-wheat-fox
   QC.Uni:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.slaphappy-persimmon-chamois.sh
-        container: qc.uni_sleepy-corn-eel
+        - /usr/bin/env sh .sqa/script.snappy-azure-anteater.sh
+        container: qc.uni_skanky-ruby-quail
   QC.Ver:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.leaky-sangria-bee.sh
-        container: qc.ver_stinky-copper-albatross
+        - /usr/bin/env sh .sqa/script.wiggy-rust-binturong.sh
+        container: qc.ver_hasty-amethyst-wasp
 timeout: 5400
