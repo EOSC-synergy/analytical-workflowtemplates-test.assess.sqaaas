@@ -5,5 +5,5 @@
 
 (
 cd gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test &&
-    pynblint.py
+    flake8 .
 )
