@@ -15,50 +15,50 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.skanky-amethyst-frog.sh
-        container: qc.acc_queasy-ecru-duck
+        - /usr/bin/env sh .sqa/script.dorky-puce-lizard.sh
+        container: qc.acc_sloppy-cardinal-meerkat
   QC.Doc:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.bumpy-thistle-vulture.sh
-        container: qc.doc_scaly-xanthic-blue
+        - /usr/bin/env sh .sqa/script.snazzy-violet-mammoth.sh
+        container: qc.doc_droopy-red-whippet
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.craggy-peach-baboon.sh
-        container: qc.doc_lanky-chestnut-dugong
+        - /usr/bin/env sh .sqa/script.chummy-magenta-lizard.sh
+        container: qc.doc_squirrely-cornflower-woodpecker
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.scaly-apricot-capuchin.sh
-        container: qc.doc_bluesy-dandelion-bloodhound
+        - /usr/bin/env sh .sqa/script.hazy-coral-zonkey.sh
+        container: qc.doc_beady-wisteria-molly
   QC.Lic:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-taupe-gorilla.sh
-        container: qc.lic_pretty-persimmon-mouse
+        - /usr/bin/env sh .sqa/script.bumpy-bistre-termite.sh
+        container: qc.lic_dorky-white-wolverine
   QC.Sec:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.sleazy-smalt-goose.sh
-        container: qc.sec_sunny-maroon-sloth
+        - /usr/bin/env sh .sqa/script.hasty-sapphire-hyena.sh
+        container: qc.sec_frumpy-olive-foxhound
   QC.Sty:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.zippy-green-crab.sh
-        container: qc.sty_crabby-thistle-dunker
+        - /usr/bin/env sh .sqa/script.pasty-scarlet-slug.sh
+        container: qc.sty_gloppy-teal-toad
   QC.Uni:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.skimpy-denim-skunk.sh
-        container: qc.uni_leaky-cornflower-tetra
+        - /usr/bin/env sh .sqa/script.grumpy-amber-leopard.sh
+        container: qc.uni_sleazy-magnolia-starfish
   QC.Ver:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.flabby-magnolia-dachsbracke.sh
-        container: qc.ver_scanty-chestnut-gibbon
+        - /usr/bin/env sh .sqa/script.woolly-cerise-angelfish.sh
+        container: qc.ver_randy-platinum-sheepdog
 timeout: 5400
