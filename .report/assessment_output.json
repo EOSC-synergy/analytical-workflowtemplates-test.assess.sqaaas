@@ -3,7 +3,7 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1772005572.8230178
+        "timestamp": 1772010477.1376402
     },
     "repository": [
         {
@@ -1545,7 +1545,11 @@
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
                             },
-                            "standard": {},
+                            "standard": {
+                                "title": "A set of Common Software Quality Assurance Baseline Criteria for Research Projects",
+                                "version": "v4.0",
+                                "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
+                            },
                             "data_unstructured": {
                                 "passed": [
                                     "ICOS_data_access.ipynb",
@@ -2140,35 +2144,35 @@
             "criteria": {
                 "bronze": {
                     "to_fulfill": [
-                        "QC.Doc",
-                        "QC.Lic",
+                        "QC.Acc",
                         "QC.Met",
-                        "QC.Acc"
+                        "QC.Lic",
+                        "QC.Doc"
                     ],
                     "missing": [
-                        "QC.Doc",
-                        "QC.Met"
+                        "QC.Met",
+                        "QC.Doc"
                     ],
                     "fulfilled": [
-                        "QC.Lic",
-                        "QC.Acc"
+                        "QC.Acc",
+                        "QC.Lic"
                     ]
                 },
                 "silver": {
                     "to_fulfill": [
-                        "QC.Doc",
                         "QC.Ver",
                         "QC.Lic",
-                        "QC.Acc",
                         "QC.Sec",
+                        "QC.Doc",
+                        "QC.Acc",
                         "QC.Sty",
                         "QC.Met"
                     ],
                     "missing": [
-                        "QC.Doc",
                         "QC.Ver",
                         "QC.Sty",
-                        "QC.Met"
+                        "QC.Met",
+                        "QC.Doc"
                     ],
                     "fulfilled": [
                         "QC.Sec",
@@ -2178,27 +2182,27 @@
                 },
                 "gold": {
                     "to_fulfill": [
-                        "QC.Doc",
                         "QC.Ver",
                         "QC.Lic",
-                        "QC.Man",
-                        "QC.Del",
-                        "QC.Acc",
-                        "QC.Uni",
                         "QC.Sec",
+                        "QC.Man",
+                        "QC.Doc",
+                        "QC.Acc",
                         "QC.Sty",
                         "QC.Met",
-                        "QC.Wor"
+                        "QC.Wor",
+                        "QC.Del",
+                        "QC.Uni"
                     ],
                     "missing": [
-                        "QC.Doc",
                         "QC.Ver",
                         "QC.Man",
-                        "QC.Wor",
-                        "QC.Uni",
+                        "QC.Doc",
                         "QC.Sty",
                         "QC.Met",
-                        "QC.Del"
+                        "QC.Wor",
+                        "QC.Del",
+                        "QC.Uni"
                     ],
                     "fulfilled": [
                         "QC.Sec",
