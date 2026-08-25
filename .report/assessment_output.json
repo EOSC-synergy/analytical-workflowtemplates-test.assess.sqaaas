@@ -3,14 +3,14 @@
         "version": "3.5.0",
         "report_json_url": "https://raw.githubusercontent.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas/main/.report/assessment_output.json",
         "report_permalink": "https://sqaaas.eosc-synergy.eu/full-assessment/report/https://raw.githubusercontent.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas/main/.report/assessment_output.json",
-        "timestamp": 1778755455.0824292
+        "timestamp": 1787655900.332861
     },
     "repository": [
         {
             "url": "https://gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test",
             "name": "palomoIFCA/analytical-workflowtemplates-test",
             "tag": "main",
-            "commit_id": "da7717173241b9a206c5d365dc8de3f081b66bf7",
+            "commit_id": "f36f647093f8a616beaa98e98933ff3582e89e9e",
             "is_main_repo": true,
             "badge_status": "no_badge"
         }
@@ -46,7 +46,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/34/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/36/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -98,7 +98,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 747}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/45/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -149,7 +149,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 747}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/45/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -201,7 +201,7 @@
                                         "find_doc_files.py --file_type all"
                                     ],
                                     "stdout_text": "{\"README\": [{\"file_name\": \"README.md\", \"size\": 747}], \"CODE_OF_CONDUCT\": [], \"CONTRIBUTING\": []}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/43/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/45/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -250,7 +250,7 @@
                                         "git rev-parse --is-inside-work-tree "
                                     ],
                                     "stdout_text": "true",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/52/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/54/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -292,7 +292,7 @@
                                         "mdl --json  ."
                                     ],
                                     "stdout_text": "[{\"filename\":\"./README.md\",\"line\":3,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":10,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":13,\"rule\":\"MD013\",\"aliases\":[\"line-length\"],\"description\":\"Line length\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md013---line-length\"},{\"filename\":\"./README.md\",\"line\":1,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":5,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":9,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"},{\"filename\":\"./README.md\",\"line\":12,\"rule\":\"MD022\",\"aliases\":[\"blanks-around-headers\"],\"description\":\"Headers should be surrounded by blank lines\",\"docs\":\"https://github.com/markdownlint/markdownlint/blob/main/docs/RULES.md#md022---headers-should-be-surrounded-by-blank-lines\"}]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/61/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/63/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -336,7 +336,7 @@
             }
         },
         "QC.Lic": {
-            "valid": true,
+            "valid": false,
             "subcriteria": {
                 "QC.Lic01": {
                     "description": "Is code licensed to be freely used, modified and distributed by others?",
@@ -344,8 +344,8 @@
                     "hint": "<p>Your source code repository shall be distributed under an open source license for this subcriterion to pass successfully. Be sure to have a license file present in the code repository matching the name <code>LICENSE</code> with optional extensions (depending on the format used): <code>[.md|.rst|.txt]</code>.</p><p>Valid licenses are any of those approved either by the <a href=\"https://opensource.org/licenses\" target=\"_blank\">Open Source Initiative</a> and/or the Free Software Foundation <a href=\"https://www.gnu.org/licenses/license-list.html\" target=\"_blank\"></a>. You can also check the <a href=\"https://choosealicense.com/\" target=\"_blank\">choosealicense.com</a> site</p>",
                     "evidence": [
                         {
-                            "valid": true,
-                            "message": "An Open Source license found in the code repository: MIT",
+                            "valid": false,
+                            "message": "No Open Source license found in the code repository",
                             "plugin": {
                                 "name": "report2sqaaas-plugin-licensee",
                                 "version": "2.1.0"
@@ -364,8 +364,8 @@
                                     "stdout_command": [
                                         "licensee detect . --confidence 60 --json "
                                     ],
-                                    "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false},{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2024 ENVRI HUB NEXT\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2024 ENVRI HUB NEXT\"},{\"filename\":\"README.md\",\"content\":\"All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.\",\"content_hash\":\"7374df7b81a6b21a22bf21398cb8dc97037af4c0\",\"content_normalized\":\"all the workflows herein provided are offered under cc-by 4.0 license.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/70/log?consoleFull"
+                                    "stdout_text": "{\"licenses\":[{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"README.md\",\"content\":\"All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.\",\"content_hash\":\"7374df7b81a6b21a22bf21398cb8dc97037af4c0\",\"content_normalized\":\"all the workflows herein provided are offered under cc-by 4.0 license.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/72/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -377,83 +377,6 @@
                             },
                             "data_unstructured": {
                                 "licenses": [
-                                    {
-                                        "key": "mit",
-                                        "spdx_id": "MIT",
-                                        "meta": {
-                                            "title": "MIT License",
-                                            "source": "https://spdx.org/licenses/MIT.html",
-                                            "description": "A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.",
-                                            "how": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.",
-                                            "using": {
-                                                "Babel": "https://github.com/babel/babel/blob/master/LICENSE",
-                                                ".NET": "https://github.com/dotnet/runtime/blob/main/LICENSE.TXT",
-                                                "Rails": "https://github.com/rails/rails/blob/master/MIT-LICENSE"
-                                            },
-                                            "featured": true,
-                                            "hidden": false,
-                                            "nickname": null,
-                                            "note": null
-                                        },
-                                        "url": "http://choosealicense.com/licenses/mit/",
-                                        "rules": {
-                                            "permissions": [
-                                                {
-                                                    "tag": "commercial-use",
-                                                    "label": "Commercial use",
-                                                    "description": "The licensed material and derivatives may be used for commercial purposes."
-                                                },
-                                                {
-                                                    "tag": "modifications",
-                                                    "label": "Modification",
-                                                    "description": "The licensed material may be modified."
-                                                },
-                                                {
-                                                    "tag": "distribution",
-                                                    "label": "Distribution",
-                                                    "description": "The licensed material may be distributed."
-                                                },
-                                                {
-                                                    "tag": "private-use",
-                                                    "label": "Private use",
-                                                    "description": "The licensed material may be used and modified in private."
-                                                }
-                                            ],
-                                            "conditions": [
-                                                {
-                                                    "tag": "include-copyright",
-                                                    "label": "License and copyright notice",
-                                                    "description": "A copy of the license and copyright notice must be included with the licensed material."
-                                                }
-                                            ],
-                                            "limitations": [
-                                                {
-                                                    "tag": "liability",
-                                                    "label": "Liability",
-                                                    "description": "This license includes a limitation of liability."
-                                                },
-                                                {
-                                                    "tag": "warranty",
-                                                    "label": "Warranty",
-                                                    "description": "This license explicitly states that it does NOT provide any warranty."
-                                                }
-                                            ]
-                                        },
-                                        "fields": [
-                                            {
-                                                "name": "year",
-                                                "description": "The current year"
-                                            },
-                                            {
-                                                "name": "fullname",
-                                                "description": "The full name or username of the repository owner"
-                                            }
-                                        ],
-                                        "other": false,
-                                        "gpl": false,
-                                        "lgpl": false,
-                                        "cc": false
-                                    },
                                     {
                                         "key": "other",
                                         "spdx_id": "NOASSERTION",
@@ -483,18 +406,6 @@
                                 ],
                                 "matched_files": [
                                     {
-                                        "filename": "LICENSE",
-                                        "content": "MIT License\n\nCopyright (c) 2024 ENVRI HUB NEXT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
-                                        "content_hash": "4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9",
-                                        "content_normalized": "permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.",
-                                        "matcher": {
-                                            "name": "exact",
-                                            "confidence": 100
-                                        },
-                                        "matched_license": "MIT",
-                                        "attribution": "Copyright (c) 2024 ENVRI HUB NEXT"
-                                    },
-                                    {
                                         "filename": "README.md",
                                         "content": "All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.",
                                         "content_hash": "7374df7b81a6b21a22bf21398cb8dc97037af4c0",
@@ -507,7 +418,8 @@
                             }
                         }
                     ],
-                    "valid": true
+                    "valid": false,
+                    "required_for_next_level_badge": true
                 },
                 "QC.Lic01.1": {
                     "description": "Is LICENSE file placed in the root path of the code repository?",
@@ -515,8 +427,8 @@
                     "hint": "Most social coding platforms require the license file to placed in the root path of the code repository, so it is a good practice to use this location by default. Allowed file names are <code>LICENSE</code>, <code>LICENSE.md</code>, <code>LICENSE.rst</code>, <code>LICENSE.txt</code>",
                     "evidence": [
                         {
-                            "valid": true,
-                            "message": "LICENSE file is visible at the root path of the code repository: LICENSE",
+                            "valid": false,
+                            "message": "LICENSE file is not placed at the root path of the code repository: None",
                             "plugin": {
                                 "name": "report2sqaaas-plugin-licensee",
                                 "version": "2.1.0"
@@ -535,8 +447,8 @@
                                     "stdout_command": [
                                         "licensee detect . --confidence 60 --json "
                                     ],
-                                    "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false},{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2024 ENVRI HUB NEXT\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2024 ENVRI HUB NEXT\"},{\"filename\":\"README.md\",\"content\":\"All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.\",\"content_hash\":\"7374df7b81a6b21a22bf21398cb8dc97037af4c0\",\"content_normalized\":\"all the workflows herein provided are offered under cc-by 4.0 license.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/70/log?consoleFull"
+                                    "stdout_text": "{\"licenses\":[{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"README.md\",\"content\":\"All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.\",\"content_hash\":\"7374df7b81a6b21a22bf21398cb8dc97037af4c0\",\"content_normalized\":\"all the workflows herein provided are offered under cc-by 4.0 license.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/72/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -548,83 +460,6 @@
                             },
                             "data_unstructured": {
                                 "licenses": [
-                                    {
-                                        "key": "mit",
-                                        "spdx_id": "MIT",
-                                        "meta": {
-                                            "title": "MIT License",
-                                            "source": "https://spdx.org/licenses/MIT.html",
-                                            "description": "A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.",
-                                            "how": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.",
-                                            "using": {
-                                                "Babel": "https://github.com/babel/babel/blob/master/LICENSE",
-                                                ".NET": "https://github.com/dotnet/runtime/blob/main/LICENSE.TXT",
-                                                "Rails": "https://github.com/rails/rails/blob/master/MIT-LICENSE"
-                                            },
-                                            "featured": true,
-                                            "hidden": false,
-                                            "nickname": null,
-                                            "note": null
-                                        },
-                                        "url": "http://choosealicense.com/licenses/mit/",
-                                        "rules": {
-                                            "permissions": [
-                                                {
-                                                    "tag": "commercial-use",
-                                                    "label": "Commercial use",
-                                                    "description": "The licensed material and derivatives may be used for commercial purposes."
-                                                },
-                                                {
-                                                    "tag": "modifications",
-                                                    "label": "Modification",
-                                                    "description": "The licensed material may be modified."
-                                                },
-                                                {
-                                                    "tag": "distribution",
-                                                    "label": "Distribution",
-                                                    "description": "The licensed material may be distributed."
-                                                },
-                                                {
-                                                    "tag": "private-use",
-                                                    "label": "Private use",
-                                                    "description": "The licensed material may be used and modified in private."
-                                                }
-                                            ],
-                                            "conditions": [
-                                                {
-                                                    "tag": "include-copyright",
-                                                    "label": "License and copyright notice",
-                                                    "description": "A copy of the license and copyright notice must be included with the licensed material."
-                                                }
-                                            ],
-                                            "limitations": [
-                                                {
-                                                    "tag": "liability",
-                                                    "label": "Liability",
-                                                    "description": "This license includes a limitation of liability."
-                                                },
-                                                {
-                                                    "tag": "warranty",
-                                                    "label": "Warranty",
-                                                    "description": "This license explicitly states that it does NOT provide any warranty."
-                                                }
-                                            ]
-                                        },
-                                        "fields": [
-                                            {
-                                                "name": "year",
-                                                "description": "The current year"
-                                            },
-                                            {
-                                                "name": "fullname",
-                                                "description": "The full name or username of the repository owner"
-                                            }
-                                        ],
-                                        "other": false,
-                                        "gpl": false,
-                                        "lgpl": false,
-                                        "cc": false
-                                    },
                                     {
                                         "key": "other",
                                         "spdx_id": "NOASSERTION",
@@ -654,18 +489,6 @@
                                 ],
                                 "matched_files": [
                                     {
-                                        "filename": "LICENSE",
-                                        "content": "MIT License\n\nCopyright (c) 2024 ENVRI HUB NEXT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
-                                        "content_hash": "4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9",
-                                        "content_normalized": "permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.",
-                                        "matcher": {
-                                            "name": "exact",
-                                            "confidence": 100
-                                        },
-                                        "matched_license": "MIT",
-                                        "attribution": "Copyright (c) 2024 ENVRI HUB NEXT"
-                                    },
-                                    {
                                         "filename": "README.md",
                                         "content": "All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.",
                                         "content_hash": "7374df7b81a6b21a22bf21398cb8dc97037af4c0",
@@ -678,7 +501,8 @@
                             }
                         }
                     ],
-                    "valid": true
+                    "valid": false,
+                    "required_for_next_level_badge": true
                 },
                 "QC.Lic02": {
                     "description": "Does the code use a license approved by Open Source Initiative?",
@@ -686,8 +510,8 @@
                     "hint": "The <a href=\"https://opensource.org/\" target=\"_blank\">Open Source Initiative (OSI)</a> sets out the requirements for software to be legally declared as Open Source. The license in use shall be in the list of <a href=\"https://opensource.org/license-list.html\" target=\"_blank\">OSI-approved licenses</a> for this criterion to be successful",
                     "evidence": [
                         {
-                            "valid": true,
-                            "message": "License MIT is approved by the Open Source Initiative",
+                            "valid": false,
+                            "message": "License NOASSERTION is not approved by the Open Source Initiative",
                             "plugin": {
                                 "name": "report2sqaaas-plugin-licensee",
                                 "version": "2.1.0"
@@ -706,8 +530,8 @@
                                     "stdout_command": [
                                         "licensee detect . --confidence 60 --json "
                                     ],
-                                    "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false},{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2024 ENVRI HUB NEXT\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2024 ENVRI HUB NEXT\"},{\"filename\":\"README.md\",\"content\":\"All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.\",\"content_hash\":\"7374df7b81a6b21a22bf21398cb8dc97037af4c0\",\"content_normalized\":\"all the workflows herein provided are offered under cc-by 4.0 license.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/70/log?consoleFull"
+                                    "stdout_text": "{\"licenses\":[{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"README.md\",\"content\":\"All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.\",\"content_hash\":\"7374df7b81a6b21a22bf21398cb8dc97037af4c0\",\"content_normalized\":\"all the workflows herein provided are offered under cc-by 4.0 license.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/72/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -719,83 +543,6 @@
                             },
                             "data_unstructured": {
                                 "licenses": [
-                                    {
-                                        "key": "mit",
-                                        "spdx_id": "MIT",
-                                        "meta": {
-                                            "title": "MIT License",
-                                            "source": "https://spdx.org/licenses/MIT.html",
-                                            "description": "A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.",
-                                            "how": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.",
-                                            "using": {
-                                                "Babel": "https://github.com/babel/babel/blob/master/LICENSE",
-                                                ".NET": "https://github.com/dotnet/runtime/blob/main/LICENSE.TXT",
-                                                "Rails": "https://github.com/rails/rails/blob/master/MIT-LICENSE"
-                                            },
-                                            "featured": true,
-                                            "hidden": false,
-                                            "nickname": null,
-                                            "note": null
-                                        },
-                                        "url": "http://choosealicense.com/licenses/mit/",
-                                        "rules": {
-                                            "permissions": [
-                                                {
-                                                    "tag": "commercial-use",
-                                                    "label": "Commercial use",
-                                                    "description": "The licensed material and derivatives may be used for commercial purposes."
-                                                },
-                                                {
-                                                    "tag": "modifications",
-                                                    "label": "Modification",
-                                                    "description": "The licensed material may be modified."
-                                                },
-                                                {
-                                                    "tag": "distribution",
-                                                    "label": "Distribution",
-                                                    "description": "The licensed material may be distributed."
-                                                },
-                                                {
-                                                    "tag": "private-use",
-                                                    "label": "Private use",
-                                                    "description": "The licensed material may be used and modified in private."
-                                                }
-                                            ],
-                                            "conditions": [
-                                                {
-                                                    "tag": "include-copyright",
-                                                    "label": "License and copyright notice",
-                                                    "description": "A copy of the license and copyright notice must be included with the licensed material."
-                                                }
-                                            ],
-                                            "limitations": [
-                                                {
-                                                    "tag": "liability",
-                                                    "label": "Liability",
-                                                    "description": "This license includes a limitation of liability."
-                                                },
-                                                {
-                                                    "tag": "warranty",
-                                                    "label": "Warranty",
-                                                    "description": "This license explicitly states that it does NOT provide any warranty."
-                                                }
-                                            ]
-                                        },
-                                        "fields": [
-                                            {
-                                                "name": "year",
-                                                "description": "The current year"
-                                            },
-                                            {
-                                                "name": "fullname",
-                                                "description": "The full name or username of the repository owner"
-                                            }
-                                        ],
-                                        "other": false,
-                                        "gpl": false,
-                                        "lgpl": false,
-                                        "cc": false
-                                    },
                                     {
                                         "key": "other",
                                         "spdx_id": "NOASSERTION",
@@ -825,18 +572,6 @@
                                 ],
                                 "matched_files": [
                                     {
-                                        "filename": "LICENSE",
-                                        "content": "MIT License\n\nCopyright (c) 2024 ENVRI HUB NEXT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
-                                        "content_hash": "4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9",
-                                        "content_normalized": "permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.",
-                                        "matcher": {
-                                            "name": "exact",
-                                            "confidence": 100
-                                        },
-                                        "matched_license": "MIT",
-                                        "attribution": "Copyright (c) 2024 ENVRI HUB NEXT"
-                                    },
-                                    {
                                         "filename": "README.md",
                                         "content": "All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.",
                                         "content_hash": "7374df7b81a6b21a22bf21398cb8dc97037af4c0",
@@ -849,7 +584,8 @@
                             }
                         }
                     ],
-                    "valid": true
+                    "valid": false,
+                    "required_for_next_level_badge": true
                 },
                 "QC.Lic02.1": {
                     "description": "Does the code use an Open Source Initiative's popular-recognized license?",
@@ -857,8 +593,8 @@
                     "hint": "The Open Source Initiative (OSI) sets out the requirements for software to be legally declared as Open Source. OSI provides a list of popular licenses that shall match most of the demands. The license in use shall be in the list of <a href=\"https://opensource.org/license-list.html\" target=\"_blank\">OSI popular licenses</a> for this criterion to be successful",
                     "evidence": [
                         {
-                            "valid": true,
-                            "message": "License MIT is listed under the Open Source Initiative popular category",
+                            "valid": false,
+                            "message": "License NOASSERTION is not listed under the Open Source Initiative popular category",
                             "plugin": {
                                 "name": "report2sqaaas-plugin-licensee",
                                 "version": "2.1.0"
@@ -877,8 +613,8 @@
                                     "stdout_command": [
                                         "licensee detect . --confidence 60 --json "
                                     ],
-                                    "stdout_text": "{\"licenses\":[{\"key\":\"mit\",\"spdx_id\":\"MIT\",\"meta\":{\"title\":\"MIT License\",\"source\":\"https://spdx.org/licenses/MIT.html\",\"description\":\"A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.\",\"how\":\"Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.\",\"using\":{\"Babel\":\"https://github.com/babel/babel/blob/master/LICENSE\",\".NET\":\"https://github.com/dotnet/runtime/blob/main/LICENSE.TXT\",\"Rails\":\"https://github.com/rails/rails/blob/master/MIT-LICENSE\"},\"featured\":true,\"hidden\":false,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/mit/\",\"rules\":{\"permissions\":[{\"tag\":\"commercial-use\",\"label\":\"Commercial use\",\"description\":\"The licensed material and derivatives may be used for commercial purposes.\"},{\"tag\":\"modifications\",\"label\":\"Modification\",\"description\":\"The licensed material may be modified.\"},{\"tag\":\"distribution\",\"label\":\"Distribution\",\"description\":\"The licensed material may be distributed.\"},{\"tag\":\"private-use\",\"label\":\"Private use\",\"description\":\"The licensed material may be used and modified in private.\"}],\"conditions\":[{\"tag\":\"include-copyright\",\"label\":\"License and copyright notice\",\"description\":\"A copy of the license and copyright notice must be included with the licensed material.\"}],\"limitations\":[{\"tag\":\"liability\",\"label\":\"Liability\",\"description\":\"This license includes a limitation of liability.\"},{\"tag\":\"warranty\",\"label\":\"Warranty\",\"description\":\"This license explicitly states that it does NOT provide any warranty.\"}]},\"fields\":[{\"name\":\"year\",\"description\":\"The current year\"},{\"name\":\"fullname\",\"description\":\"The full name or username of the repository owner\"}],\"other\":false,\"gpl\":false,\"lgpl\":false,\"cc\":false},{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"LICENSE\",\"content\":\"MIT License\\n\\nCopyright (c) 2024 ENVRI HUB NEXT\\n\\nPermission is hereby granted, free of charge, to any person obtaining a copy\\nof this software and associated documentation files (the \\\"Software\\\"), to deal\\nin the Software without restriction, including without limitation the rights\\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\\ncopies of the Software, and to permit persons to whom the Software is\\nfurnished to do so, subject to the following conditions:\\n\\nThe above copyright notice and this permission notice shall be included in all\\ncopies or substantial portions of the Software.\\n\\nTHE SOFTWARE IS PROVIDED \\\"AS IS\\\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\\nSOFTWARE.\\n\",\"content_hash\":\"4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9\",\"content_normalized\":\"permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.\",\"matcher\":{\"name\":\"exact\",\"confidence\":100},\"matched_license\":\"MIT\",\"attribution\":\"Copyright (c) 2024 ENVRI HUB NEXT\"},{\"filename\":\"README.md\",\"content\":\"All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.\",\"content_hash\":\"7374df7b81a6b21a22bf21398cb8dc97037af4c0\",\"content_normalized\":\"all the workflows herein provided are offered under cc-by 4.0 license.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/70/log?consoleFull"
+                                    "stdout_text": "{\"licenses\":[{\"key\":\"other\",\"spdx_id\":\"NOASSERTION\",\"meta\":{\"title\":null,\"source\":null,\"description\":null,\"how\":null,\"using\":null,\"featured\":false,\"hidden\":true,\"nickname\":null,\"note\":null},\"url\":\"http://choosealicense.com/licenses/other/\",\"rules\":{\"permissions\":[],\"conditions\":[],\"limitations\":[]},\"fields\":[],\"other\":true,\"gpl\":false,\"lgpl\":false,\"cc\":false}],\"matched_files\":[{\"filename\":\"README.md\",\"content\":\"All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.\",\"content_hash\":\"7374df7b81a6b21a22bf21398cb8dc97037af4c0\",\"content_normalized\":\"all the workflows herein provided are offered under cc-by 4.0 license.\",\"matcher\":null,\"matched_license\":\"NOASSERTION\",\"attribution\":null}]}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/72/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -890,83 +626,6 @@
                             },
                             "data_unstructured": {
                                 "licenses": [
-                                    {
-                                        "key": "mit",
-                                        "spdx_id": "MIT",
-                                        "meta": {
-                                            "title": "MIT License",
-                                            "source": "https://spdx.org/licenses/MIT.html",
-                                            "description": "A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.",
-                                            "how": "Create a text file (typically named LICENSE or LICENSE.txt) in the root of your source code and copy the text of the license into the file. Replace [year] with the current year and [fullname] with the name (or names) of the copyright holders.",
-                                            "using": {
-                                                "Babel": "https://github.com/babel/babel/blob/master/LICENSE",
-                                                ".NET": "https://github.com/dotnet/runtime/blob/main/LICENSE.TXT",
-                                                "Rails": "https://github.com/rails/rails/blob/master/MIT-LICENSE"
-                                            },
-                                            "featured": true,
-                                            "hidden": false,
-                                            "nickname": null,
-                                            "note": null
-                                        },
-                                        "url": "http://choosealicense.com/licenses/mit/",
-                                        "rules": {
-                                            "permissions": [
-                                                {
-                                                    "tag": "commercial-use",
-                                                    "label": "Commercial use",
-                                                    "description": "The licensed material and derivatives may be used for commercial purposes."
-                                                },
-                                                {
-                                                    "tag": "modifications",
-                                                    "label": "Modification",
-                                                    "description": "The licensed material may be modified."
-                                                },
-                                                {
-                                                    "tag": "distribution",
-                                                    "label": "Distribution",
-                                                    "description": "The licensed material may be distributed."
-                                                },
-                                                {
-                                                    "tag": "private-use",
-                                                    "label": "Private use",
-                                                    "description": "The licensed material may be used and modified in private."
-                                                }
-                                            ],
-                                            "conditions": [
-                                                {
-                                                    "tag": "include-copyright",
-                                                    "label": "License and copyright notice",
-                                                    "description": "A copy of the license and copyright notice must be included with the licensed material."
-                                                }
-                                            ],
-                                            "limitations": [
-                                                {
-                                                    "tag": "liability",
-                                                    "label": "Liability",
-                                                    "description": "This license includes a limitation of liability."
-                                                },
-                                                {
-                                                    "tag": "warranty",
-                                                    "label": "Warranty",
-                                                    "description": "This license explicitly states that it does NOT provide any warranty."
-                                                }
-                                            ]
-                                        },
-                                        "fields": [
-                                            {
-                                                "name": "year",
-                                                "description": "The current year"
-                                            },
-                                            {
-                                                "name": "fullname",
-                                                "description": "The full name or username of the repository owner"
-                                            }
-                                        ],
-                                        "other": false,
-                                        "gpl": false,
-                                        "lgpl": false,
-                                        "cc": false
-                                    },
                                     {
                                         "key": "other",
                                         "spdx_id": "NOASSERTION",
@@ -996,18 +655,6 @@
                                 ],
                                 "matched_files": [
                                     {
-                                        "filename": "LICENSE",
-                                        "content": "MIT License\n\nCopyright (c) 2024 ENVRI HUB NEXT\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n",
-                                        "content_hash": "4c2c763d64bbc7ef2e58b0ec6d06d90cee9755c9",
-                                        "content_normalized": "permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'software'), to deal in the software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, and to permit persons to whom the software is furnished to do so, subject to the following conditions: the above copyright notice and this permission notice shall be included in all copies or substantial portions of the software. the software is provided 'as is', without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. in no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.",
-                                        "matcher": {
-                                            "name": "exact",
-                                            "confidence": 100
-                                        },
-                                        "matched_license": "MIT",
-                                        "attribution": "Copyright (c) 2024 ENVRI HUB NEXT"
-                                    },
-                                    {
                                         "filename": "README.md",
                                         "content": "All the workflows herein provided are offered under [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.",
                                         "content_hash": "7374df7b81a6b21a22bf21398cb8dc97037af4c0",
@@ -1020,13 +667,14 @@
                             }
                         }
                     ],
-                    "valid": true
+                    "valid": false,
+                    "required_for_next_level_badge": false
                 }
             },
             "coverage": {
-                "percentage": 100,
+                "percentage": 0,
                 "total_subcriteria": 4,
-                "success_subcriteria": 4
+                "success_subcriteria": 0
             }
         },
         "QC.Sec": {
@@ -1058,8 +706,8 @@
                                     "stdout_command": [
                                         "bandit -f json --quiet  --confidence-level high --severity-level high --recursive  ."
                                     ],
-                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2026-05-14T10:42:25Z\",\n  \"metrics\": {\n    \"./hello.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 1,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 1,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/79/log?consoleFull"
+                                    "stdout_text": "{\n  \"errors\": [],\n  \"generated_at\": \"2026-08-25T11:02:18Z\",\n  \"metrics\": {\n    \"./ci/generate_junit.py\": {\n      \"CONFIDENCE.HIGH\": 1,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 1,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 164,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"./hello.py\": {\n      \"CONFIDENCE.HIGH\": 0,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 0,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 0,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 1,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    },\n    \"_totals\": {\n      \"CONFIDENCE.HIGH\": 1,\n      \"CONFIDENCE.LOW\": 0,\n      \"CONFIDENCE.MEDIUM\": 1,\n      \"CONFIDENCE.UNDEFINED\": 0,\n      \"SEVERITY.HIGH\": 0,\n      \"SEVERITY.LOW\": 2,\n      \"SEVERITY.MEDIUM\": 0,\n      \"SEVERITY.UNDEFINED\": 0,\n      \"loc\": 165,\n      \"nosec\": 0,\n      \"skipped_tests\": 0\n    }\n  },\n  \"results\": []\n}",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/81/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -1071,8 +719,21 @@
                             },
                             "data_unstructured": {
                                 "errors": [],
-                                "generated_at": "2026-05-14T10:42:25Z",
+                                "generated_at": "2026-08-25T11:02:18Z",
                                 "metrics": {
+                                    "./ci/generate_junit.py": {
+                                        "CONFIDENCE.HIGH": 1,
+                                        "CONFIDENCE.LOW": 0,
+                                        "CONFIDENCE.MEDIUM": 1,
+                                        "CONFIDENCE.UNDEFINED": 0,
+                                        "SEVERITY.HIGH": 0,
+                                        "SEVERITY.LOW": 2,
+                                        "SEVERITY.MEDIUM": 0,
+                                        "SEVERITY.UNDEFINED": 0,
+                                        "loc": 164,
+                                        "nosec": 0,
+                                        "skipped_tests": 0
+                                    },
                                     "./hello.py": {
                                         "CONFIDENCE.HIGH": 0,
                                         "CONFIDENCE.LOW": 0,
@@ -1087,15 +748,15 @@
                                         "skipped_tests": 0
                                     },
                                     "_totals": {
-                                        "CONFIDENCE.HIGH": 0,
+                                        "CONFIDENCE.HIGH": 1,
                                         "CONFIDENCE.LOW": 0,
-                                        "CONFIDENCE.MEDIUM": 0,
+                                        "CONFIDENCE.MEDIUM": 1,
                                         "CONFIDENCE.UNDEFINED": 0,
                                         "SEVERITY.HIGH": 0,
-                                        "SEVERITY.LOW": 0,
+                                        "SEVERITY.LOW": 2,
                                         "SEVERITY.MEDIUM": 0,
                                         "SEVERITY.UNDEFINED": 0,
-                                        "loc": 1,
+                                        "loc": 165,
                                         "nosec": 0,
                                         "skipped_tests": 0
                                     }
@@ -1122,8 +783,8 @@
                     "hint": "Please check & solve the security weaknesses found by the linter tool",
                     "evidence": [
                         {
-                            "valid": true,
-                            "message": "Python files are compliant with flake8 (pycodestyle, pyflakes, mccabe) standard",
+                            "valid": false,
+                            "message": "Python files are not fully compliant with flake8 (pycodestyle, pyflakes, mccabe) standard",
                             "plugin": {
                                 "name": "report2sqaaas-plugin-flake8",
                                 "version": "2.1.0"
@@ -1142,8 +803,8 @@
                                     "stdout_command": [
                                         "flake8 ."
                                     ],
-                                    "stdout_text": "./hello.py:1:20: W292 no newline at end of file",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/88/log?consoleFull"
+                                    "stdout_text": "./ci/generate_junit.py:98:80: E501 line too long (86 > 79 characters)\n./ci/generate_junit.py:102:80: E501 line too long (88 > 79 characters)\n./ci/generate_junit.py:132:80: E501 line too long (88 > 79 characters)\n./ci/generate_junit.py:154:80: E501 line too long (97 > 79 characters)\n./ci/generate_junit.py:162:80: E501 line too long (81 > 79 characters)\n./ci/generate_junit.py:171:80: E501 line too long (90 > 79 characters)\n./ci/generate_junit.py:196:80: E501 line too long (85 > 79 characters)\n./ci/generate_junit.py:200:11: W292 no newline at end of file\n./hello.py:1:20: W292 no newline at end of file",
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/90/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -1153,7 +814,7 @@
                                 "version": "v4.0",
                                 "url": "https://github.com/indigo-dc/sqa-baseline/releases/tag/v4.0"
                             },
-                            "data_unstructured": "./hello.py:1:20: W292 no newline at end of file"
+                            "data_unstructured": "./ci/generate_junit.py:98:80: E501 line too long (86 > 79 characters)\n./ci/generate_junit.py:102:80: E501 line too long (88 > 79 characters)\n./ci/generate_junit.py:132:80: E501 line too long (88 > 79 characters)\n./ci/generate_junit.py:154:80: E501 line too long (97 > 79 characters)\n./ci/generate_junit.py:162:80: E501 line too long (81 > 79 characters)\n./ci/generate_junit.py:171:80: E501 line too long (90 > 79 characters)\n./ci/generate_junit.py:196:80: E501 line too long (85 > 79 characters)\n./ci/generate_junit.py:200:11: W292 no newline at end of file\n./hello.py:1:20: W292 no newline at end of file"
                         },
                         {
                             "valid": true,
@@ -1177,7 +838,7 @@
                                         "jsonlint-cli \"**/*.json\""
                                     ],
                                     "stdout_text": "",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/97/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/99/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -1211,7 +872,7 @@
                                         "pynblint.py"
                                     ],
                                     "stdout_text": "{\"result\": false, \"passed_list\": [\"ICOS_data_access.ipynb\", \"ENVRI HUB library usage.ipynb\"], \"failed_list\": [\"SeaDataNet - Beacon.ipynb\", \"Access_ACTRIS_EXV-related_datasets.ipynb\", \"EPOS_Data_Access.ipynb\", \"2._Argo_Data_Access.ipynb\", \"IAGOS_data_access_L3.ipynb\", \"SeaDataNet - CDI API.ipynb\", \"1. AnaEE Weather Data Access APIs.ipynb\"], \"passed_reasons_list\": [{\"ICOS_data_access.ipynb\": []}, {\"ENVRI HUB library usage.ipynb\": [{\"slug\": \"non-portable-chars-in-nb-name\", \"description\": \"The notebook filename contains non-portable characters (i.e., characters outside the [A-Za-z0-9_.-] charset).\", \"recommendation\": \"Rename your notebook by using characters contained in the following portable charset: [A-Za-z0-9_.-].\"}, {\"slug\": \"imports-beyond-first-cell\", \"description\": \"Import statements found beyond the first cell of the notebook.\", \"recommendation\": \"Move import statements to the first code cell to make your notebook dependencies more explicit.\"}]}], \"failed_reasons_list\": [{\"SeaDataNet - Beacon.ipynb\": [{\"slug\": \"non-portable-chars-in-nb-name\", \"description\": \"The notebook filename contains non-portable characters (i.e., characters outside the [A-Za-z0-9_.-] charset).\", \"recommendation\": \"Rename your notebook by using characters contained in the following portable charset: [A-Za-z0-9_.-].\"}, {\"slug\": \"missing-closing-MD-text\", \"description\": \"The final notebook cells (i.e., the last 3 cells in the notebook) contain no Markdown text.\", \"recommendation\": \"Conclude your notebook by describing what you have accomplished in one or more concluding Markdown cells.\"}, {\"slug\": \"non-executed-cells\", \"description\": \"Non-executed cells are present in the notebook.\", \"recommendation\": \"Re-run your notebook top to bottom to ensure that all cells are executed.\", \"cells\": [{\"index\": 2, \"type\": \"CellType.CODE\", \"execution_count\": null}, {\"index\": 3, \"type\": \"CellType.CODE\", \"execution_count\": null}]}, {\"slug\": \"cell-too-long\", \"description\": \"One or more code cells in this notebook are too long (i.e., they exceed the fixed threshold of 30 lines).\", \"recommendation\": \"Consider consolidating your code outside the notebook by moving utility functions to a structured and tested codebase.\\nUse notebooks to display results, not to compute them.\", \"cells\": [{\"index\": 7, \"type\": \"CellType.CODE\", \"execution_count\": 5}, {\"index\": 9, \"type\": \"CellType.CODE\", \"execution_count\": 6}]}]}, {\"Access_ACTRIS_EXV-related_datasets.ipynb\": [{\"slug\": \"non-linear-execution\", \"description\": \"Notebook cells have been executed in a non-linear order.\", \"recommendation\": \"Re-run your notebook top to bottom to ensure it is reproducible.\"}, {\"slug\": \"imports-beyond-first-cell\", \"description\": \"Import statements found beyond the first cell of the notebook.\", \"recommendation\": \"Move import statements to the first code cell to make your notebook dependencies more explicit.\"}, {\"slug\": \"missing-closing-MD-text\", \"description\": \"The final notebook cells (i.e., the last 3 cells in the notebook) contain no Markdown text.\", \"recommendation\": \"Conclude your notebook by describing what you have accomplished in one or more concluding Markdown cells.\"}, {\"slug\": \"empty-cells\", \"description\": \"Empty cells are present in the notebook.\", \"recommendation\": \"Keep your notebook clean by deleting unused cells.\", \"cells\": [{\"index\": 20, \"type\": \"CellType.CODE\", \"execution_count\": null}, {\"index\": 21, \"type\": \"CellType.CODE\", \"execution_count\": null}]}, {\"slug\": \"long_multiline_python_comment\", \"description\": \"One or more code cells in this notebook contain Python comments of 4 or more consecutive lines.\", \"recommendation\": \"For improved notebook readability, prefer using Markdown formatted text to long multiline Python comments.\", \"cells\": [{\"index\": 12, \"type\": \"CellType.CODE\", \"execution_count\": 68}]}, {\"slug\": \"cell-too-long\", \"description\": \"One or more code cells in this notebook are too long (i.e., they exceed the fixed threshold of 30 lines).\", \"recommendation\": \"Consider consolidating your code outside the notebook by moving utility functions to a structured and tested codebase.\\nUse notebooks to display results, not to compute them.\", \"cells\": [{\"index\": 6, \"type\": \"CellType.CODE\", \"execution_count\": 60}, {\"index\": 11, \"type\": \"CellType.CODE\", \"execution_count\": 87}]}]}, {\"EPOS_Data_Access.ipynb\": [{\"slug\": \"non-linear-execution\", \"description\": \"Notebook cells have been executed in a non-linear order.\", \"recommendation\": \"Re-run your notebook top to bottom to ensure it is reproducible.\"}, {\"slug\": \"imports-beyond-first-cell\", \"description\": \"Import statements found beyond the first cell of the notebook.\", \"recommendation\": \"Move import statements to the first code cell to make your notebook dependencies more explicit.\"}, {\"slug\": \"missing-closing-MD-text\", \"description\": \"The final notebook cells (i.e., the last 3 cells in the notebook) contain no Markdown text.\", \"recommendation\": \"Conclude your notebook by describing what you have accomplished in one or more concluding Markdown cells.\"}, {\"slug\": \"empty-cells\", \"description\": \"Empty cells are present in the notebook.\", \"recommendation\": \"Keep your notebook clean by deleting unused cells.\", \"cells\": [{\"index\": 44, \"type\": \"CellType.CODE\", \"execution_count\": null}]}]}, {\"2._Argo_Data_Access.ipynb\": [{\"slug\": \"imports-beyond-first-cell\", \"description\": \"Import statements found beyond the first cell of the notebook.\", \"recommendation\": \"Move import statements to the first code cell to make your notebook dependencies more explicit.\"}, {\"slug\": \"missing-closing-MD-text\", \"description\": \"The final notebook cells (i.e., the last 3 cells in the notebook) contain no Markdown text.\", \"recommendation\": \"Conclude your notebook by describing what you have accomplished in one or more concluding Markdown cells.\"}, {\"slug\": \"empty-cells\", \"description\": \"Empty cells are present in the notebook.\", \"recommendation\": \"Keep your notebook clean by deleting unused cells.\", \"cells\": [{\"index\": 35, \"type\": \"CellType.CODE\", \"execution_count\": null}]}, {\"slug\": \"cell-too-long\", \"description\": \"One or more code cells in this notebook are too long (i.e., they exceed the fixed threshold of 30 lines).\", \"recommendation\": \"Consider consolidating your code outside the notebook by moving utility functions to a structured and tested codebase.\\nUse notebooks to display results, not to compute them.\", \"cells\": [{\"index\": 32, \"type\": \"CellType.CODE\", \"execution_count\": 15}, {\"index\": 34, \"type\": \"CellType.CODE\", \"execution_count\": 17}]}]}, {\"IAGOS_data_access_L3.ipynb\": [{\"slug\": \"imports-beyond-first-cell\", \"description\": \"Import statements found beyond the first cell of the notebook.\", \"recommendation\": \"Move import statements to the first code cell to make your notebook dependencies more explicit.\"}, {\"slug\": \"missing-h1-MD-heading\", \"description\": \"An H1 Markdown heading is missing from the initial cells of the notebook.\", \"recommendation\": \"Clarify the notebook subject by writing an H1 Markdown heading in one of the initial cells of your notebook.\"}, {\"slug\": \"missing-opening-MD-text\", \"description\": \"The initial notebook cells (i.e., the first 3 cells in the notebook) contain no Markdown text.\", \"recommendation\": \"Begin your notebook by describing what you intend to do in one or more introductory Markdown cells.\"}, {\"slug\": \"missing-closing-MD-text\", \"description\": \"The final notebook cells (i.e., the last 3 cells in the notebook) contain no Markdown text.\", \"recommendation\": \"Conclude your notebook by describing what you have accomplished in one or more concluding Markdown cells.\"}, {\"slug\": \"too-few-MD-cells\", \"description\": \"The notebook contains too few Markdown cells compared to code cells (the ratio is below the fixed threshold of 30.0%).\", \"recommendation\": \"Describe the steps of your computation by adding a few more Markdown cells.\"}, {\"slug\": \"cell-too-long\", \"description\": \"One or more code cells in this notebook are too long (i.e., they exceed the fixed threshold of 30 lines).\", \"recommendation\": \"Consider consolidating your code outside the notebook by moving utility functions to a structured and tested codebase.\\nUse notebooks to display results, not to compute them.\", \"cells\": [{\"index\": 3, \"type\": \"CellType.CODE\", \"execution_count\": 4}]}]}, {\"SeaDataNet - CDI API.ipynb\": [{\"slug\": \"non-portable-chars-in-nb-name\", \"description\": \"The notebook filename contains non-portable characters (i.e., characters outside the [A-Za-z0-9_.-] charset).\", \"recommendation\": \"Rename your notebook by using characters contained in the following portable charset: [A-Za-z0-9_.-].\"}, {\"slug\": \"imports-beyond-first-cell\", \"description\": \"Import statements found beyond the first cell of the notebook.\", \"recommendation\": \"Move import statements to the first code cell to make your notebook dependencies more explicit.\"}, {\"slug\": \"non-executed-cells\", \"description\": \"Non-executed cells are present in the notebook.\", \"recommendation\": \"Re-run your notebook top to bottom to ensure that all cells are executed.\", \"cells\": [{\"index\": 2, \"type\": \"CellType.CODE\", \"execution_count\": null}, {\"index\": 17, \"type\": \"CellType.CODE\", \"execution_count\": null}, {\"index\": 19, \"type\": \"CellType.CODE\", \"execution_count\": null}]}, {\"slug\": \"cell-too-long\", \"description\": \"One or more code cells in this notebook are too long (i.e., they exceed the fixed threshold of 30 lines).\", \"recommendation\": \"Consider consolidating your code outside the notebook by moving utility functions to a structured and tested codebase.\\nUse notebooks to display results, not to compute them.\", \"cells\": [{\"index\": 9, \"type\": \"CellType.CODE\", \"execution_count\": 118}, {\"index\": 13, \"type\": \"CellType.CODE\", \"execution_count\": 120}, {\"index\": 15, \"type\": \"CellType.CODE\", \"execution_count\": 122}, {\"index\": 17, \"type\": \"CellType.CODE\", \"execution_count\": null}, {\"index\": 19, \"type\": \"CellType.CODE\", \"execution_count\": null}]}]}, {\"1. AnaEE Weather Data Access APIs.ipynb\": [{\"slug\": \"non-linear-execution\", \"description\": \"Notebook cells have been executed in a non-linear order.\", \"recommendation\": \"Re-run your notebook top to bottom to ensure it is reproducible.\"}, {\"slug\": \"non-portable-chars-in-nb-name\", \"description\": \"The notebook filename contains non-portable characters (i.e., characters outside the [A-Za-z0-9_.-] charset).\", \"recommendation\": \"Rename your notebook by using characters contained in the following portable charset: [A-Za-z0-9_.-].\"}, {\"slug\": \"imports-beyond-first-cell\", \"description\": \"Import statements found beyond the first cell of the notebook.\", \"recommendation\": \"Move import statements to the first code cell to make your notebook dependencies more explicit.\"}, {\"slug\": \"cell-too-long\", \"description\": \"One or more code cells in this notebook are too long (i.e., they exceed the fixed threshold of 30 lines).\", \"recommendation\": \"Consider consolidating your code outside the notebook by moving utility functions to a structured and tested codebase.\\nUse notebooks to display results, not to compute them.\", \"cells\": [{\"index\": 13, \"type\": \"CellType.CODE\", \"execution_count\": 18}]}]}], \"criterion\": \"QC.Sty\", \"subcriterion\": [{\"id\": \"QC.Sty01\", \"description\": \"Is the software product following a style standard for Jupyter Notebooks?\", \"hint\": \"Check the following notebook files: SeaDataNet - Beacon.ipynb, Access_ACTRIS_EXV-related_datasets.ipynb, EPOS_Data_Access.ipynb, 2._Argo_Data_Access.ipynb, IAGOS_data_access_L3.ipynb, SeaDataNet - CDI API.ipynb, 1. AnaEE Weather Data Access APIs.ipynb, \", \"valid\": false, \"evidence\": \"The notebooks do not follow enough standards. Check Failed reasons list for more info\", \"requirement_level\": \"RECOMMENDED\"}]}",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/106/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/108/log?consoleFull"
                                 },
                                 "level": "RECOMMENDED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -1626,7 +1287,7 @@
                                         "pytest  --json-report  --json-report-indent 4"
                                     ],
                                     "stdout_text": "============================= test session starts ==============================\nplatform linux -- Python 3.9.17, pytest-7.1.3, pluggy-1.2.0\nrootdir: /sqaaas-build/gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test\nplugins: json-report-1.5.0, metadata-3.0.0\ncollected 0 items\n\n--------------------------------- JSON report ----------------------------------\nreport saved to: .report.json\n============================ no tests ran in 0.01s =============================",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/115/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/117/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -1679,7 +1340,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/124/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/126/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -1722,7 +1383,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/124/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/126/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -1765,7 +1426,7 @@
                                         "get_git_tags.py"
                                     ],
                                     "stdout_text": "[]",
-                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/78/execution/node/124/log?consoleFull"
+                                    "url": "https://jenkins.eosc-synergy.eu/job/eosc-synergy-org/job/analytical-workflowtemplates-test.assess.sqaaas/job/main/80/execution/node/126/log?consoleFull"
                                 },
                                 "level": "REQUIRED",
                                 "build_repo": "https://github.com/eosc-synergy/analytical-workflowtemplates-test.assess.sqaaas"
@@ -1816,57 +1477,57 @@
                 "bronze": {
                     "to_fulfill": [
                         "QC.Acc",
-                        "QC.Lic",
-                        "QC.Doc"
+                        "QC.Doc",
+                        "QC.Lic"
                     ],
                     "missing": [
-                        "QC.Doc"
+                        "QC.Doc",
+                        "QC.Lic"
                     ],
                     "fulfilled": [
-                        "QC.Acc",
-                        "QC.Lic"
+                        "QC.Acc"
                     ]
                 },
                 "silver": {
                     "to_fulfill": [
                         "QC.Ver",
+                        "QC.Doc",
                         "QC.Acc",
                         "QC.Lic",
-                        "QC.Met",
-                        "QC.Doc"
+                        "QC.Met"
                     ],
                     "missing": [
-                        "QC.Met",
+                        "QC.Lic",
                         "QC.Ver",
+                        "QC.Met",
                         "QC.Doc"
                     ],
                     "fulfilled": [
-                        "QC.Acc",
-                        "QC.Lic"
+                        "QC.Acc"
                     ]
                 },
                 "gold": {
                     "to_fulfill": [
-                        "QC.Sec",
                         "QC.Ver",
-                        "QC.Sty",
+                        "QC.Doc",
+                        "QC.Sec",
                         "QC.Acc",
+                        "QC.Uni",
                         "QC.Lic",
                         "QC.Met",
-                        "QC.Doc",
-                        "QC.Uni"
+                        "QC.Sty"
                     ],
                     "missing": [
-                        "QC.Sty",
                         "QC.Ver",
-                        "QC.Met",
                         "QC.Doc",
-                        "QC.Uni"
+                        "QC.Uni",
+                        "QC.Lic",
+                        "QC.Met",
+                        "QC.Sty"
                     ],
                     "fulfilled": [
                         "QC.Acc",
-                        "QC.Sec",
-                        "QC.Lic"
+                        "QC.Sec"
                     ]
                 }
             },
