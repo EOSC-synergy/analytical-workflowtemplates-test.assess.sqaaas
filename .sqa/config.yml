@@ -20,58 +20,58 @@ sqa_criteria:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.pansy_audacious_gecko.sh
-        container: qc.acc_alabaster_gentle_elephant
+        - /usr/bin/env sh .sqa/script.cornflower_stubborn_flounder.sh
+        container: qc.acc_sepia_sarcastic_dragon
   QC.Doc:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.sapphire_anxious_hedgehog.sh
-        container: qc.doc_viridian_apprehensive_caiman
+        - /usr/bin/env sh .sqa/script.bone_rustic_starfish.sh
+        container: qc.doc_gold_skeptical_eagle
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test git:
         commands:
-        - /usr/bin/env sh .sqa/script.gray_reflective_eel.sh
-        container: qc.doc_tangerine_balanced_chameleon
+        - /usr/bin/env sh .sqa/script.seafoam_lucky_kirin.sh
+        container: qc.doc_nutmeg_whimsical_boar
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.mango_focused_hamster.sh
-        container: qc.doc_daffodil_logical_elk
+        - /usr/bin/env sh .sqa/script.horizon_bubbly_donkey.sh
+        container: qc.doc_pearl_apathetic_angelfish
   QC.Lic:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.saffron_sad_leopard.sh
-        container: qc.lic_mulberry_determined_lionfish
+        - /usr/bin/env sh .sqa/script.pumpkin_zany_boa.sh
+        container: qc.lic_silver_apprehensive_cobra
   QC.Sec:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.lagoon_warm_capybara.sh
-        container: qc.sec_cerise_perky_hydra
+        - /usr/bin/env sh .sqa/script.turquoise_resilient_sphinx.sh
+        container: qc.sec_glacier_insightful_llama
   QC.Sty:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.snow_delighted_condor.sh
-        container: qc.sty_chili_lucky_mandrill
+        - /usr/bin/env sh .sqa/script.eggplant_fierce_cougar.sh
+        container: qc.sty_ebony_positive_serval
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.clove_tenacious_groundhog.sh
-        container: qc.sty_butterscotch_confident_albatross
+        - /usr/bin/env sh .sqa/script.cinnabar_lively_kirin.sh
+        container: qc.sty_jasmine_resourceful_bear
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pynblint.py:
         commands:
-        - /usr/bin/env sh .sqa/script.carmine_dramatic_spren.sh
-        container: qc.sty_boysenberry_understanding_dormouse
+        - /usr/bin/env sh .sqa/script.white_sad_walrus.sh
+        container: qc.sty_chocolate_fearless_thrush
   QC.Uni:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test pytest:
         commands:
-        - /usr/bin/env sh .sqa/script.butter_wise_pangolin.sh
-        container: qc.uni_obsidian_kind_tapir
+        - /usr/bin/env sh .sqa/script.mint_sad_unicorn.sh
+        container: qc.uni_banana_plucky_kiwi
   QC.Ver:
     repos:
       gitlab.a.incd.pt/palomoIFCA/analytical-workflowtemplates-test get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.nutmeg_grateful_walrus.sh
-        container: qc.ver_mustard_organized_macaw
+        - /usr/bin/env sh .sqa/script.viridian_candid_capybara.sh
+        container: qc.ver_saffron_fierce_owl
 timeout: 5400
